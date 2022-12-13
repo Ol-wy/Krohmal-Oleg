@@ -1,0 +1,114 @@
+.mainHeader{
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #000;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    font-family: "acumin-pro","Acumin Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    justify-content: space-between;
+}
+
+.image {
+    margin-right: -700px;
+}
+
+.links {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    column-gap: 25px;
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+    margin-right: -200px;
+}
+
+.link__inner {
+    list-style: none;
+    text-decoration: none;
+    column-gap: 25px;
+    color: black;
+}
+
+
+.buttom {
+    list-style: none;
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+}
+
+.btn__in {
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #0078FF;
+    border: 1px solid #000;
+    border-radius: 18px;
+    padding: 8px 18px;
+    background: #f5f8ff;
+    border-color: #dee8ff;
+}
+
+.btn__in:hover {
+    background: #e1eafd;
+}
+
+.btn__reg {
+    text-decoration: none;
+    background: #0057ff;
+    color: #fff;
+    padding: 8px 18px;
+    border: 1px solid #000;
+    border-radius: 18px;
+    border-color: #dee8ff;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.btn__reg:hover {
+    background: #0042c7;
+}
+
+.empty {
+    border-left: 1px solid #e8e8e8;;
+    padding-right: 5px;
+    height: 30px;
+    margin-left: 8px;
+    margin-top: 8px;
+    width: 16px
+}
+
+.btn__header{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 4px 16px;
+    border: 1px solid #191919 ;
+    border-color: #e8e8e8;
+    border-radius: 28px;   
+}
+
+.btn__header:hover {
+    background: #c8c8c8;
+}
+
+
+.rainBow {
+    width: 23px; 
+    height: 23px;
+    border-radius: 5px;
+    align-items: center;
+    padding-top: 5px ;
+}
+
+.imageL{
+    margin-top: 5px;
+    margin-left: 20px;
+    width: 60px;
+    height: 16px;
+}
